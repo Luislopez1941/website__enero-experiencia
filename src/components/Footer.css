@@ -1,0 +1,110 @@
+.footer {
+    border-top: 3px solid var(--color--white);
+    background-color: var(--color--black);
+    color: var(--color--white);
+   
+}
+
+.container__footer {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 20px 0;
+    align-items: center;
+    
+}
+
+.contact {
+    width: 33%;
+   
+}
+.contact .title {
+   font-size: 1em;
+}
+.contact .about {
+    display: flex;
+    margin: 10px 0;
+}
+
+.contact .about h5 {
+    margin-right: 10px;
+}
+.location {
+    width: 33%;
+}
+
+.location .item {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.location .item img {
+    margin-right: 20px;
+}
+
+.company {
+    width: 33%;
+}
+
+.social__networks img {
+    margin: 20px 20px 0 0;
+    
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 720px)  {
+    .container__footer {
+        display: block;
+        text-align: center;
+        
+    }
+    .contact {
+        width: 100%;
+       
+    }
+    .location {
+        display: flex;
+        width: 100%;
+        text-align: center;
+    }
+
+    .location .item {
+        display: flex;
+        width: 160px;
+        margin: 10px auto;
+        align-items: center;
+        
+        
+    }
+    
+    
+
+    .company {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .contact .about {
+        justify-content: center;
+        
+    }
+   
+}
+
+@media screen and (max-width: 400px) {
+    .location {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    
+   
+}
